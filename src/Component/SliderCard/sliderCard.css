@@ -1,0 +1,66 @@
+.card {
+    border-radius: 4%;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.card-right-title {
+    display: flex;
+}
+
+.card-right-title div{
+    color: gray;
+    margin-left: 20px;
+}
+
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-side-text {
+    width: 50%;
+    padding: 0px 15px;
+}
+
+.card .ant-slider-track{
+    border-radius: 6px;
+    height:10px;
+    background-color: #ef8888;
+}
+.card .ant-slider-track:hover{
+    background-color: #ef8888;
+}
+
+.card .ant-slider-rail {
+    background-color: #f2c8c8;
+    height:10px;
+    border-radius: 6px;
+}
+
+.card .ant-slider-handle {
+    display: none;
+}
+
+.card .ant-slider {
+    margin: 0 6px 30px;
+}
+
+.left-side-text p, .right-side-text p {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.left-side-text span, .right-side-text span {
+    float: right;
+    color: gray;
+}

@@ -1,0 +1,117 @@
+@import '~antd/dist/antd.css';
+
+.login-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    width: 23%;
+    box-shadow: 1px 3px 3px 0px rgb(170 169 169 / 75%);
+    position: relative;
+    height: 33rem;
+}
+
+.loginContent-container {
+    width: 23%;
+    padding: 0px 40px;
+    box-shadow: 0px 2px 4px 0px rgb(170 169 169 / 75%);
+    height: 33rem;
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.footer-text h3 {
+    font-size: 28px;
+    color: #f5f1f6;
+    margin: 0;
+}
+
+.footer-text p {
+    color: #f5f1f6;
+}
+
+.login-gradient {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-style {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.safwa-text {
+    font-size: 10px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: darkblue;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.welcome-text {
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: darkblue;
+}
+
+.signin-text {
+    color: darkblue;
+}
+
+.user-text {
+    color: red;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.forgot-text {
+    color: red;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.logo-footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 10px;
+    color: darkgray;
+}
+
+.first-input {
+    font-style: italic;
+    margin-top: 0;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px 0px #c7c7c7bf;
+
+}
+
+.second-input {
+    font-style: italic;
+    margin-top: 15px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px 0px #c7c7c7bf;
+
+}
+
+.login-btn-style.ant-btn-primary {
+    border: none;
+    font-weight: 700;
+    margin-top: 15px;
+    border-radius: 4px;
+    background-color: rgb(33 18 59);
+}

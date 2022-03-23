@@ -1,0 +1,75 @@
+.table-container tr:nth-child(even){
+    background-color: #ef8888;
+}
+
+.table-container tr:nth-child(odd){
+    background-color: rgb(233, 233, 233);
+}
+
+.table-container tr td {
+    padding: 7px;
+    text-align: center;
+}
+
+.table-container tr th {
+    text-align: center;
+}
+
+.table-container tr td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.table-container tr td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.table-container {
+    border-radius: 10px;
+}
+
+.table-container .ant-table table {
+    border-spacing: 0 20px;
+}
+
+.table-container .ant-pagination-disabled .ant-pagination-item-link, .ant-pagination-disabled:hover .ant-pagination-item-link {
+    border-color: transparent;
+}
+
+.table-container .ant-pagination-item-active {
+    border-color: red;
+    background-color: red;
+    border-radius: 8px;
+}
+
+.table-container .ant-pagination-item-active a{
+    color: #fff;
+}
+
+.table-container .ant-table-pagination.ant-pagination {
+    margin: 0;
+}
+
+.filter-container {
+    display: flex;
+    height: 35px;
+}
+
+.fliterBtn-container {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: red;
+    border-radius: 8px;
+    margin-left: 10px;
+    padding: 0 10px;
+}
+
+.fliterBtn-container svg {
+    margin-right: 5px;
+}
+
+.table-input {
+    border-radius: 4px;
+}

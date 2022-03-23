@@ -1,0 +1,10 @@
+.slidercontainer{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.dash_table{
+    width: 100%;
+}
